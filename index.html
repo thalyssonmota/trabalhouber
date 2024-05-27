@@ -12,9 +12,9 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-black">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">UBER</a>
+            <a class="navbar-brand  text-light" href="#">UBER</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,16 +22,16 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Viajar</a>
+                        <a class="nav-link active text-light" aria-current="page" href="#">Viajar</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Dirigir</a>
+                        <a class="nav-link text-light" href="#">Dirigir</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Empresas</a>
+                        <a class="nav-link text-light" href="#">Empresas</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             Sobre
                         </a>
@@ -55,35 +55,33 @@
     </nav>
 
 
-    <div class="bg-black">
+    <div class="principal">
         <div class="container">
-            <div class="row d-flex align-items-center text-white">
-                <div class="col secpreco">
-                    <h1>Vá a qualquer lugar <br>
-                        com o app da Uber</h1>
-                    <p>Solicite uma viagem, entre no carro e relaxe.</p>
-                    <form class="formu">
-                        <div>
-
-                            <input type="text" id="disabledTextInput" class="form-control"
-                                placeholder="Informe o local">
-                        </div>
-                        <div>
-
-                            <input type="text" id="disabledTextInput" class="form-control"
-                                placeholder="Informe o destino">
-                        </div>
-                        <div class="preco">
-                            <button type="submit" class="btn btn-light">Ver Preços</button>
-                        </div>
-                        </fieldset>
-                    </form>
+                <div class="container2 row d-flex text-white">
+                    <div class="col secpreco">
+                        <h1>Vá a qualquer lugar <br>
+                            com o app da Uber</h1>
+                        <p>Solicite uma viagem, entre no carro e relaxe.</p>
+                        <form class="formu">
+                            <div>
+                                <input type="text" id="disabledTextInput" class="form-control"
+                                    placeholder="Informe o local">
+                            </div>
+                            <div>
+                                <input type="text" id="disabledTextInput" class="form-control"
+                                    placeholder="Informe o destino">
+                            </div>
+                            <div class="preco">
+                                <button type="submit" class="btn btn-light">Ver Preços</button>
+                            </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col">
+                        <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1715811384/assets/16/9d4ec4-89fe-45ff-9557-dc4d8adc45a3/original/Ride-with-Uber-square.png"
+                            alt="Passageiro descendo do carro ilustrativo">
+                    </div>
                 </div>
-                <div class="col">
-                    <img src="https://www.uber-assets.com/image/upload/f_auto,q_auto:eco,c_fill,w_698,h_698/v1715811384/assets/16/9d4ec4-89fe-45ff-9557-dc4d8adc45a3/original/Ride-with-Uber-square.png"
-                        alt="Passageiro descendo do carro ilustrativo">
-                </div>
-            </div>
         </div>
     </div>
 
@@ -99,5 +97,4 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
